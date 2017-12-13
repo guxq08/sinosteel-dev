@@ -24,6 +24,9 @@ public class Function extends BaseEntity
 	
 	@Column(name = "FUNCTION_STRING")
 	private String functionString;
+
+	@Column(name = "FUNCTION_CODE")
+	private String functionCode;
 	
 	@ManyToOne
 	@JoinColumn(name = "MENU_ID", foreignKey = @ForeignKey(name = "none", value = ConstraintMode.NO_CONSTRAINT))
@@ -52,5 +55,13 @@ public class Function extends BaseEntity
 
 	public void setFunctionString(String functionString) {
 		this.functionString = functionString;
+	}
+
+	public String getFunctionCode() {
+		return functionCode;
+	}
+
+	public void setFunctionCode(String functionCode) {
+		this.functionCode = functionCode;
 	}
 }

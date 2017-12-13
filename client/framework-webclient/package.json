@@ -1,7 +1,7 @@
 {
   "name": "framework-webclient",
   "version": "1.0.0",
-  "description": "Sinosteel Equipment and Engineering Intelligence Pool",
+  "description": "Fitech Framework",
   "main": "index.js",
   "engines": {
     "node": ">=4.5.0",

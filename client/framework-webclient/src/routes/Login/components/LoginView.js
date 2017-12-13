@@ -85,7 +85,7 @@ class LoginView extends React.Component
                 <div className="login-component">
                     <div className="login-title">
                         <img src={Logo} className="login-logo "></img>
-                        <span><h2 style={{fontSize:'18px',color:'#666666'}}>SINOSTEEL信息系统框架</h2></span>
+                        <span><h2 style={{fontSize:'18px',color:'#666666'}}>科融数据系统框架</h2></span>
                     </div>
 
                     <Form onSubmit={this.handleSubmit} className="login-form">

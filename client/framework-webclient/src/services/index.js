@@ -1,5 +1,5 @@
-const baseAddress = 'http://localhost:8000'; 
-const serviceBaseAddress = 'http://localhost:8000/services';
+const baseAddress = 'http://localhost:8000';
+const serviceBaseAddress = baseAddress+'/services';
 
 //auth
 export const loginService = baseAddress + '/login';
@@ -115,3 +115,5 @@ export const queryRolesService = serviceBaseAddress + '/queryRoles';
 export const addRoleService = serviceBaseAddress + '/addRole';
 export const editRoleService = serviceBaseAddress + '/editRole';
 export const deleteRoleService = serviceBaseAddress + '/deleteRole';
+
+//

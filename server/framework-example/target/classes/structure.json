@@ -220,5 +220,29 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "5",
+        "code": "INDEX",
+        "name": "指标",
+        "moduleIcon": "global",
+        "modulePath": "/index/global",
+        "menus": [
+            {
+                "id": "5-0",
+                "code": "5-0",
+                "name": "指标定义",
+                "menuIcon": "book",
+                "menuPath": "/index_list",
+                "functions": [
+                    {
+                        "id": "5-0-F0",
+                        "code": "5-0-F0",
+                        "name": "新建指标",
+                        "functionString": "addIndexDefinition"
+                    }
+                ]
+            }
+        ]
     }
 ]

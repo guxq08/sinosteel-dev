@@ -27,7 +27,7 @@ public class StandardController extends BaseController
 	@RequiresAuthorization(
 			requestType = RequestType.QUERY, 
 			serviceClass = UserService.class, 
-			queryScope = AuthorizationScope.ALL,
+			queryScope = AuthorizationScope.USER,
 			editScope = AuthorizationScope.ORGANIZATION,
 			deleteScope = AuthorizationScope.ORGANIZATION)
 	public Response queryStandards(Request request)
