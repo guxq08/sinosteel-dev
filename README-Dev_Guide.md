@@ -182,12 +182,12 @@ https://github.com/davezuko
 
 以下以上述国家标准文件管理需求为例来进行开发，首先，在`src/routes`下建立文件夹`knowledge`，在文件夹中新建:           
                    
-* `StandardAddView.js`         
-* `StandardEditView.js`           
-* `StandardInspectView.js`         
-* `StandardListComponent.js`          
-* `StandardSearchComponent.js`                 
-* `StandardListView.js`           
+* `IndexDefinitionAddView.js`         
+* `IndexDefinitionEditView.js`           
+* `IndexDefinitionInspectView.js`         
+* `IndexDefinitionListComponent.js`          
+* `IndexDefinitionSearchComponent.js`                 
+* `IndexDefinitionListView.js`           
                     
 这些新建的文件和上述的抽象公共页面是一一对应的。   
 

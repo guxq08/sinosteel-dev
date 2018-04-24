@@ -27,6 +27,7 @@ public class RequestArgumentResolver implements HandlerMethodArgumentResolver
     @Override
     public boolean supportsParameter(MethodParameter methodParameter) 
     {
+    	//如果controller的形参为Request对象，则返回true，表示需要处理该参数分解，调用下面的resolveArgument处理
         return methodParameter.getParameterType().equals(Request.class);
     }
  
@@ -35,7 +36,8 @@ public class RequestArgumentResolver implements HandlerMethodArgumentResolver
                                   NativeWebRequest webRequest, WebDataBinderFactory binderFactory) throws Exception 
     {
     	Request request = new Request();
-    	
+
+    	//通过请求中的参数username设置request的user
     	String username = webRequest.getParameter("username");
     	User user = userService.getUserByUsername(username);
     	request.setUser(user);

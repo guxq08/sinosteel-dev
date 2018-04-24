@@ -1,6 +1,7 @@
 import ProjectListView from 'routes/Project/subviews/ProjectList/components/ProjectListView';
 
 import StandardListView from 'routes/Knowledge/subviews/StandardList/components/StandardListView';
+import IndexDefinitionListView from 'routes/Index/subviews/IndexList/components/IndexDefinitionListView';
 
 import UserTreeView from 'routes/System/subviews/UserList/components/UserTreeView';
 import OrganizationTreeView from 'routes/System/subviews/OrganizationTree/components/OrganizationTreeView';
@@ -12,7 +13,7 @@ const tabsmap =
 [
     {
         path: '/index_list',
-        component: ItemContainer('project', ProjectListView)
+        component: ItemContainer('indexDefinition', IndexDefinitionListView)
     },
     {
         path: '/project_list',

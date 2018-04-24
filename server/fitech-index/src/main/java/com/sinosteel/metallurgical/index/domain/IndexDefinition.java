@@ -13,21 +13,21 @@ public class IndexDefinition extends BaseEntity
 	private static final long serialVersionUID = -7239923911792108248L;
 
 	@Column(name = "INDEX_FREQUENCY")
-	private String indexFrequency;
+	private double indexFrequency;
 
 	@Column(name = "DATA_TYPE")
 	private String dataType; //
 
 	@Column(name = "DATA_PRECISION")
-	private float dataPrecision;
+	private double dataPrecision;
 
 	@Column(name = "INDEX_MEANING")
 	private String indexMeaning;
 
 	@Column(name = "STATUS")
-	private String status; //
+	private String status; //1:在执行   0:废止
 
-	//明确一下什么意思
+	//明确一下什么意思 是否为常用指标库
 	@Column(name = "ORDINARY_INDEX_LIBRARY")
 	private boolean ordinaryIndexLibrary;
 
@@ -78,19 +78,19 @@ public class IndexDefinition extends BaseEntity
 		this.useScale = useScale;
 	}
 
-	public String getIndexFrequency() {
+	public double getIndexFrequency() {
 		return indexFrequency;
 	}
 
-	public void setIndexFrequency(String indexFrequency) {
+	public void setIndexFrequency(double indexFrequency) {
 		this.indexFrequency = indexFrequency;
 	}
 
-	public float getDataPrecision() {
+	public double getDataPrecision() {
 		return dataPrecision;
 	}
 
-	public void setDataPrecision(float dataPrecision) {
+	public void setDataPrecision(double dataPrecision) {
 		this.dataPrecision = dataPrecision;
 	}
 

@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="framework" />
         <module name="framework-example" />
+        <module name="framework-index" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="framework" target="1.6" />
       <module name="framework-example" target="1.6" />
       <module name="framework-example (1)" target="1.6" />
+      <module name="framework-index" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

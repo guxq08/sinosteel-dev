@@ -13,9 +13,13 @@ import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 import com.sinosteel.framework.core.web.RequestArgumentResolver;
 
+/*
+
+ */
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter
 {
+	//自定义参数解析器，RequestArgumentResolver主要负责执行controller前参数nju准备工作.
 	@Bean
 	public RequestArgumentResolver requestArgumentResolver()
 	{

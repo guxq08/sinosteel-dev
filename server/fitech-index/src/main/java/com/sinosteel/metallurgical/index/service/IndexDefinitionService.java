@@ -32,57 +32,91 @@ public class IndexDefinitionService extends BaseService<IndexDefinition>
 	private IndexDefinitionRepository indexDefinitionRepository;
 
 	
-//	public JSONObject queryIndexDefinitions(JSONObject params)
-//	{
-//		StringBuilder hqlBuilder = new StringBuilder("FROM IndexDefinition indexdefinition WHERE 1 = 1 ");
-//		HashMap<String, Object> paramsMap = new HashMap<String, Object>();
-//
-//		String name = params.getString("name");
-//		if(!StringUtil.isEmpty(name))
-//		{
-//			hqlBuilder.append("AND standard.name LIKE :name ");
-//			paramsMap.put("name", "%" + name + "%");
-//		}
-//
-//		String status = params.getString("status");
-//		if(!StringUtil.isEmpty(status))
-//		{
-//			hqlBuilder.append("AND standard.status = :status ");
-//			paramsMap.put("status", status);
-//		}
-//
-//		String type = params.getString("type");
-//		if(!StringUtil.isEmpty(type))
-//		{
-//			hqlBuilder.append("AND standard.type = :type ");
-//			paramsMap.put("type", type);
-//		}
-//
-//		JSONArray issueDate = params.getJSONArray("issueData");
-//		if(issueDate != null)
-//		{
-//			String lowerLimit = issueDate.getString(0);
-//			if(!StringUtil.isEmpty(lowerLimit))
-//			{
-//				hqlBuilder.append("AND standard.issueDate >= :lowerLimit ");
-//				paramsMap.put("lowerLimit", lowerLimit);
-//			}
-//
-//			String upperLimit = issueDate.getString(1);
-//			if(!StringUtil.isEmpty(upperLimit))
-//			{
-//				hqlBuilder.append("AND standard.issueDate <= :upperLimit ");
-//				paramsMap.put("upperLimit", upperLimit);
-//			}
-//		}
-//
-//		hqlBuilder.append("ORDER BY ISSUE_DATE DESC");
-//
-//		Pager pager = JSONObject.toJavaObject(params.getJSONObject("pagination"), Pager.class);
-//		PageResult<Standard> pageResult = standardRepository.executeHql(hqlBuilder.toString(), paramsMap, pager);
-//
-//		return pageResult.toJSONObject();
-//	}
+	public JSONObject queryIndexDefinitions(JSONObject params)
+	{
+		StringBuilder hqlBuilder = new StringBuilder("FROM IndexDefinition indexDefinition WHERE 1 = 1 ");
+		HashMap<String, Object> paramsMap = new HashMap<String, Object>();
+
+		String name = params.getString("name");
+		if(!StringUtil.isEmpty(name))
+		{
+			hqlBuilder.append("AND indexDefinition.name LIKE :name ");
+			paramsMap.put("name", "%" + name + "%");
+		}
+
+		String code = params.getString("code");
+		if(!StringUtil.isEmpty(code))
+		{
+			hqlBuilder.append("AND indexDefinition.code = :code ");
+			paramsMap.put("code", code);
+		}
+
+		String indexFrequency = params.getString("indexFrequency");
+		if(!StringUtil.isEmpty(indexFrequency))
+		{
+			hqlBuilder.append("AND indexDefinition.indexFrequency LIKE :indexFrequency ");
+			System.out.println(Double.parseDouble(indexFrequency));
+			paramsMap.put("indexFrequency", Double.parseDouble(indexFrequency));
+		}
+
+		String dataType = params.getString("dataType");
+		if(!StringUtil.isEmpty(dataType))
+		{
+			hqlBuilder.append("AND indexDefinition.dataType = :dataType ");
+			paramsMap.put("dataType", dataType);
+		}
+
+		String dataPrecision = params.getString("dataPrecision");
+		if(!StringUtil.isEmpty(dataType))
+		{
+			hqlBuilder.append("AND indexDefinition.dataPrecision LIKE :dataPrecision ");
+			System.out.println(Double.parseDouble(dataPrecision));
+			paramsMap.put("dataPrecision", Double.parseDouble(dataPrecision));
+		}
+
+		String indexMeaning = params.getString("indexMeaning");
+		if(!StringUtil.isEmpty(dataType))
+		{
+			hqlBuilder.append("AND indexDefinition.indexMeaning = :indexMeaning ");
+			paramsMap.put("indexMeaning", indexMeaning);
+		}
+
+		String status = params.getString("status");
+		if(!StringUtil.isEmpty(status))
+		{
+			hqlBuilder.append("AND indexDefinition.status = :status ");
+			paramsMap.put("status", status);
+		}
+
+		String ordinaryIndexLibrary = params.getString("ordinaryIndexLibrary");
+		if(!StringUtil.isEmpty(ordinaryIndexLibrary))
+		{
+			hqlBuilder.append("AND indexDefinition.ordinaryIndexLibrary = :ordinaryIndexLibrary ");
+			paramsMap.put("ordinaryIndexLibrary", Boolean.parseBoolean(ordinaryIndexLibrary));
+		}
+
+		String inUse = params.getString("inUse");
+		if(!StringUtil.isEmpty(inUse))
+		{
+			hqlBuilder.append("AND indexDefinition.inUse = :inUse ");
+			System.out.println("inUse: " + inUse + Boolean.parseBoolean(inUse));
+			paramsMap.put("inUse", Boolean.parseBoolean(inUse));
+		}
+
+		String useScale = params.getString("useScale");
+		if(!StringUtil.isEmpty(useScale))
+		{
+			hqlBuilder.append("AND indexDefinition.useScale = :useScale ");
+			paramsMap.put("useScale", useScale);
+		}
+
+		hqlBuilder.append("ORDER BY CREATED_TIME DESC");
+
+		Pager pager = JSONObject.toJavaObject(params.getJSONObject("pagination"), Pager.class);
+		PageResult<IndexDefinition> pageResult = indexDefinitionRepository.executeHql(hqlBuilder.toString(), paramsMap, pager);
+
+		return pageResult.toJSONObject();
+	}
 	
 	public void addIndexDefinition(JSONObject params, User user) throws Exception
 	{
@@ -111,5 +145,14 @@ public class IndexDefinitionService extends BaseService<IndexDefinition>
 	{
 		String indexDefinitionId = params.getString("id");
 		indexDefinitionRepository.delete(indexDefinitionId);
+	}
+
+	public String isInUse (String inUse){
+		if (inUse.equals("true")){
+			return "1";
+		}
+		else {
+			return "0";
+		}
 	}
 }

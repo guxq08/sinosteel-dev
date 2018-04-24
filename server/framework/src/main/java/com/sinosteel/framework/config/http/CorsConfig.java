@@ -6,15 +6,18 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+/*
+使用Filter 处理跨域请求，即CORS（跨来源资源共享）。
+ */
 @Configuration
 public class CorsConfig 
 {
     private CorsConfiguration buildConfig() 
     {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.addAllowedOrigin("*"); // 1
-        corsConfiguration.addAllowedHeader("*"); // 2
-        corsConfiguration.addAllowedMethod("*"); // 3
+        corsConfiguration.addAllowedOrigin("*"); // 1 允许跨域访问的域名
+        corsConfiguration.addAllowedHeader("*"); // 2 请求header
+        corsConfiguration.addAllowedMethod("*"); // 3 请求方法
         return corsConfiguration;
     }
 

@@ -27,7 +27,7 @@ INSERT INTO `TBL_PROJECT` (`id`, `altered_time`, `altered_user_id`, `code`, `cre
 ('6', NULL, NULL, '6', NULL, '0', NULL, '测试数据', '1', NULL, 27, '沈阳', '项目6', '2016-08-01', NULL),
 ('7', NULL, NULL, '7', NULL, '0', NULL, '测试数据', '0', NULL, 33, '北京', '项目7', '2016-08-11', NULL),
 ('8', NULL, NULL, '8', NULL, '0', NULL, '测试数据', '0', NULL, 31, '沈阳', '项目8', '2015-10-28', NULL),
-('9', NULL, NULL, '9', NULL, '0', NULL, '测试数据', '0', NULL, 25, '上海', '项目9', '2015-05-06', NULL);
+('9', NULL, NULL, '9', NULL, '0', NULL, '测试数据', '0', NULL, 25, '上海', '项目9', '2015-05-06', NULL)ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 --
@@ -71,7 +71,7 @@ INSERT INTO `TBL_MILESTONE` (`id`, `altered_time`, `altered_user_id`, `code`, `c
 ('9-1', NULL, NULL, NULL, NULL, '0', '测试节点9-1', '4', '2016-12-14', NULL, NULL),
 ('9-2', NULL, NULL, NULL, NULL, '0', '测试节点9-2', '4', '2017-01-27', NULL, NULL),
 ('93a0ada7-facf-4476-af21-1bff96de4011', NULL, NULL, NULL, '2017-07-10 16:24:32', '0', 'TEST1', '1', '2017-07-02T08:24:29.282Z', NULL, NULL),
-('f988c509-5b74-463b-ae42-c53204c78689', NULL, NULL, NULL, '2017-07-10 16:24:22', '0', 'TEST0', '1', '2016-07-07T08:24:16.858Z', NULL, NULL);
+('f988c509-5b74-463b-ae42-c53204c78689', NULL, NULL, NULL, '2017-07-10 16:24:22', '0', 'TEST0', '1', '2016-07-07T08:24:16.858Z', NULL, NULL)ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ INSERT INTO `TBL_STANDARD` (`id`, `altered_time`, `altered_user_id`, `code`, `cr
 ('6', NULL, NULL, '6', NULL, '0', '测试数据6', '2012-11-05', '1', NULL, '1'),
 ('7', NULL, NULL, '7', NULL, '0', '测试数据7', '2015-02-14', '1', NULL, '0'),
 ('8', NULL, NULL, '8', NULL, '0', '测试数据8', '2015-11-19', '1', NULL, '0'),
-('9', NULL, NULL, '9', NULL, '0', '测试数据9', '2013-03-05', '1', NULL, '2');
+('9', NULL, NULL, '9', NULL, '0', '测试数据9', '2013-03-05', '1', NULL, '2')ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ INSERT INTO `TBL_SYS_DELETE_AUTHORIZATION` (`organization_id`, `role_id`) VALUES
 ('0-3-2', '0'),
 ('0-3-3', '0'),
 ('0-4', '0'),
-('0-5', '0');
+('0-5', '0')ON DUPLICATE KEY UPDATE organization_id = organization_id;
 
 -- --------------------------------------------------------
 
@@ -143,7 +143,7 @@ INSERT INTO `TBL_SYS_EDIT_AUTHORIZATION` (`organization_id`, `role_id`) VALUES
 ('0-3-2', '0'),
 ('0-3-3', '0'),
 ('0-4', '0'),
-('0-5', '0');
+('0-5', '0')ON DUPLICATE KEY UPDATE organization_id = organization_id;
 
 -- --------------------------------------------------------
 --
@@ -162,7 +162,8 @@ INSERT INTO `TBL_SYS_MENU` (`ID`, `CODE`, `MENU_PATH`, `MENU_ICON`, `MODULE_ID`,
 ('2-0', '2-0', '/personnel_list', 'solution', '2', NULL, NULL, NULL, NULL, NULL, '员工信息'),
 ('3-0', '3-0', '/contract_list', 'red-envelope', '3', NULL, NULL, NULL, NULL, NULL, '合同信息'),
 ('3-1', '3-1', '/customer_list', 'contacts', '3', NULL, NULL, NULL, NULL, NULL, '客户信息'),
-('4-0', '4-0', '/standard_list', 'book', '4', NULL, NULL, NULL, NULL, NULL, '国家标准规范');
+('4-0', '4-0', '/standard_list', 'book', '4', NULL, NULL, NULL, NULL, NULL, '国家标准规范'),
+('5-0', '5-0', '/index_list', 'book', '5', NULL, NULL, NULL, NULL, NULL, '指标定义')ON DUPLICATE KEY UPDATE ID = ID;
 
 -- --------------------------------------------------------
 
@@ -195,7 +196,10 @@ INSERT INTO `TBL_SYS_FUNCTION` (`id`, `altered_time`, `altered_user_id`, `code`,
 ('4-0-F0', NULL, NULL, '4-0-F0', NULL, NULL, '4-0-F0', '4-0', '新增国家标准', '/addStandard', 'addStandard'),
 ('4-0-F1', NULL, NULL, '4-0-F1', NULL, NULL, '4-0-F1', '4-0', '删除国家标准', '/deleteStandard', 'deleteStandard'),
 ('4-0-F2', NULL, NULL, '4-0-F2', NULL, NULL, '4-0-F2', '4-0', '修改国家标准', '/editStandard', 'editStandard'),
-('4-0-F3', NULL, NULL, '4-0-F3', NULL, NULL, '4-0-F3', '4-0', '查询国家标准', '/queryStandards', 'queryStandards');
+('4-0-F3', NULL, NULL, '4-0-F3', NULL, NULL, '4-0-F3', '4-0', '查询国家标准', '/queryStandards', 'queryStandards'),
+('5-0-F0', NULL, NULL, '5-0-F0', NULL, NULL, '5-0-F0', '5-0', '新增指标定义', '/addIndexDefinition', 'addIndexDefinition'),
+('5-0-F1', NULL, NULL, '5-0-F1', NULL, NULL, '5-0-F1', '5-0', '修改指标定义', '/editIndexDefinition', 'editIndexDefinition'),
+('5-0-F2', NULL, NULL, '5-0-F2', NULL, NULL, '5-0-F2', '5-0', '删除指标定义', '/deleteIndexDefinition', 'deleteIndexDefinition')ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -209,7 +213,8 @@ INSERT INTO `TBL_SYS_MODULE` (`id`, `code`, `module_icon`, `module_path`, `alter
 ('1', 'PROJECT', 'eye-o', '/index/project', NULL, NULL, NULL, NULL, '项目监理'),
 ('2', 'PERSONNEL', 'team', '/index/personnel', NULL, NULL, NULL, NULL, '人力资源'),
 ('3', 'CONTRACT', 'bank', '/index/contract', NULL, NULL, NULL, NULL, '经营管理'),
-('4', 'KNOWLEDGE', 'global', '/index/global', NULL, NULL, NULL, NULL, '知识库');
+('4', 'KNOWLEDGE', 'global', '/index/global', NULL, NULL, NULL, NULL, '知识库'),
+('5', 'INDEX', 'global', '/index/index', NULL, NULL, NULL, NULL, '指标管理')ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -234,7 +239,7 @@ INSERT INTO `TBL_SYS_ORGANIZATION` (`id`, `altered_time`, `altered_user_id`, `co
 ('0-3-3', NULL, NULL, '0-3-3', NULL, '0', '组织3-3', '0-3', NULL, NULL),
 ('0-4', NULL, NULL, '0-4', NULL, '0', '组织4', '0', NULL, NULL),
 ('0-5', NULL, NULL, '0-5', NULL, '0', '组织5', '0', NULL, NULL),
-('c01eebe8-2e59-4743-8dbf-dc990210289f', NULL, NULL, NULL, '2017-05-17 15:24:51', '0', '管理员组', '0', NULL, '系统维护');
+('c01eebe8-2e59-4743-8dbf-dc990210289f', NULL, NULL, NULL, '2017-05-17 15:24:51', '0', '管理员组', '0', NULL, '系统维护')ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -245,7 +250,7 @@ INSERT INTO `TBL_SYS_ORGANIZATION` (`id`, `altered_time`, `altered_user_id`, `co
 INSERT INTO `TBL_SYS_ORGANIZATION_USER` (`organization_id`, `user_id`, `is_principal`) VALUES
 ('c01eebe8-2e59-4743-8dbf-dc990210289f', '0', '1'),
 ('0', 'c10ce096-6f06-4ca3-a7c0-07a436ad8c92', '0'),
-('0-0', '22e37288-112e-4c82-a2a5-a1b9eb6f019c', '0');
+('0-0', '22e37288-112e-4c82-a2a5-a1b9eb6f019c', '0')ON DUPLICATE KEY UPDATE organization_id = organization_id;
 
 -- --------------------------------------------------------
 
@@ -269,7 +274,7 @@ INSERT INTO `TBL_SYS_QUERY_AUTHORIZATION` (`organization_id`, `role_id`) VALUES
 ('0-3-2', '0'),
 ('0-3-3', '0'),
 ('0-4', '0'),
-('0-5', '0');
+('0-5', '0')ON DUPLICATE KEY UPDATE organization_id = organization_id;
 
 -- --------------------------------------------------------
 
@@ -279,7 +284,7 @@ INSERT INTO `TBL_SYS_QUERY_AUTHORIZATION` (`organization_id`, `role_id`) VALUES
 
 INSERT INTO `TBL_SYS_ROLE` (`id`, `altered_time`, `altered_user_id`, `code`, `created_time`, `created_user_id`, `role_name`, `name`, `description`, `role_string`) VALUES
 ('0', '11:28:46', '0', '0', NULL, '0', '超级管理员', NULL, NULL, 'super_admin'),
-('1fb22ed9-2261-4cac-9884-d5dc2a895648', NULL, NULL, NULL, '2017-05-18 09:21:30', '0', '普通用户', NULL, NULL, 'normal_user');
+('1fb22ed9-2261-4cac-9884-d5dc2a895648', NULL, NULL, NULL, '2017-05-18 09:21:30', '0', '普通用户', NULL, NULL, 'normal_user')ON DUPLICATE KEY UPDATE id = id;
 
 -- --------------------------------------------------------
 
@@ -316,7 +321,10 @@ INSERT INTO `TBL_SYS_ROLE_FUNCTION` (`function_id`, `role_id`) VALUES
 ('4-0-F0', '1fb22ed9-2261-4cac-9884-d5dc2a895648'),
 ('4-0-F1', '1fb22ed9-2261-4cac-9884-d5dc2a895648'),
 ('4-0-F2', '1fb22ed9-2261-4cac-9884-d5dc2a895648'),
-('4-0-F3', '1fb22ed9-2261-4cac-9884-d5dc2a895648');
+('4-0-F3', '1fb22ed9-2261-4cac-9884-d5dc2a895648'),
+('5-0-F0', '0'),
+('5-0-F1', '0'),
+('5-0-F2', '0')ON DUPLICATE KEY UPDATE function_id = function_id;
 
 -- --------------------------------------------------------
 
@@ -326,16 +334,16 @@ INSERT INTO `TBL_SYS_ROLE_FUNCTION` (`function_id`, `role_id`) VALUES
 
 INSERT INTO `TBL_SYS_USER` (`ID`, `CODE`, `USERNAME`, `PASSWORD`, `altered_time`, `altered_user_id`, `created_time`, `created_user_id`, `name`, `salt`) VALUES
 ('0', '0', 'admin', '21232F297A57A5A743894A0E4A801FC3', NULL, NULL, NULL, '0', 'DimitriZhao', NULL),
-('22e37288-112e-4c82-a2a5-a1b9eb6f019c', NULL, 'test', 'E10ADC3949BA59ABBE56E057F20F883E', '09:37:05', '0', '2017-06-14 09:36:39', '0', 'TEST', NULL);
+('22e37288-112e-4c82-a2a5-a1b9eb6f019c', NULL, 'test', 'E10ADC3949BA59ABBE56E057F20F883E', '09:37:05', '0', '2017-06-14 09:36:39', '0', 'TEST', NULL)ON DUPLICATE KEY UPDATE ID = ID;
 
 -- --------------------------------------------------------
 --
 -- 转存表中的数据 `tbl_sys_role_user`
---
+-- user 0(admin)的角色是 role 0(super_admin)；user 22e37288(test)的角色是role 1fb22ed9(normal_user)
 
 INSERT INTO `TBL_SYS_ROLE_USER` (`user_id`, `role_id`) VALUES
 ('0', '0'),
-('22e37288-112e-4c82-a2a5-a1b9eb6f019c', '1fb22ed9-2261-4cac-9884-d5dc2a895648');
+('22e37288-112e-4c82-a2a5-a1b9eb6f019c', '1fb22ed9-2261-4cac-9884-d5dc2a895648')ON DUPLICATE KEY UPDATE user_id = user_id;
 
 -- --------------------------------------------------------
 
@@ -374,4 +382,4 @@ INSERT INTO `TBL_TOPIC` (`id`, `altered_time`, `altered_user_id`, `code`, `creat
 ('6', NULL, NULL, '6', NULL, '0', '7', '项目7---课题6', NULL, NULL, NULL, '沈阳', '2016-10-25'),
 ('7', NULL, NULL, '7', NULL, '0', '9', '项目9---课题7', NULL, NULL, NULL, '北京', '2017-06-20'),
 ('8', NULL, NULL, '8', NULL, '0', '6', '项目6---课题8', NULL, NULL, NULL, '北京', '2017-02-14'),
-('9', NULL, NULL, '9', NULL, '0', '3', '项目3---课题9', NULL, NULL, NULL, '上海', '2017-02-28');
+('9', NULL, NULL, '9', NULL, '0', '3', '项目3---课题9', NULL, NULL, NULL, '上海', '2017-02-28')ON DUPLICATE KEY UPDATE id = id;

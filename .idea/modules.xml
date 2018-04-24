@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/server/framework/framework.iml" filepath="$PROJECT_DIR$/server/framework/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/framework-example/framework-example.iml" filepath="$PROJECT_DIR$/server/framework-example/framework-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/fitech-index/framework-index.iml" filepath="$PROJECT_DIR$/server/fitech-index/framework-index.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sinosteel.iml" filepath="$PROJECT_DIR$/.idea/sinosteel.iml" />
     </modules>
   </component>

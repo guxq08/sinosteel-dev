@@ -63,6 +63,7 @@ public class StatelessAuthorizingRealm extends AuthorizingRealm
     	SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
     	
     	JSONObject userInfoJson = CacheUtil.getUserInfoJson(username);
+    	System.out.println(username);
     	if(userInfoJson == null)
     	{
     		User user = userRepository.findByUsername(username);  
@@ -78,6 +79,8 @@ public class StatelessAuthorizingRealm extends AuthorizingRealm
     	for(int i = 0; i < rolesJsonArray.size(); i++)
     	{
     		String roleString = rolesJsonArray.getString(i);
+			System.out.println(roleString + '\n');
+
     		authorizationInfo.addRole(roleString);
     	}
     	
@@ -85,6 +88,7 @@ public class StatelessAuthorizingRealm extends AuthorizingRealm
     	for(int i = 0; i < functionsJsonArray.size(); i++)
     	{
     		String functionString = functionsJsonArray.getString(i);
+    		System.out.println(functionString + '\n');
     		authorizationInfo.addStringPermission(functionString);
     	}
 

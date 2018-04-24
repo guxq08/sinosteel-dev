@@ -1,4 +1,4 @@
-const baseAddress = 'http://localhost:8000';
+const baseAddress = 'http://172.27.128.165:8000';
 const serviceBaseAddress = baseAddress+'/services';
 
 //auth
@@ -116,4 +116,8 @@ export const addRoleService = serviceBaseAddress + '/addRole';
 export const editRoleService = serviceBaseAddress + '/editRole';
 export const deleteRoleService = serviceBaseAddress + '/deleteRole';
 
-//
+//index
+export const addIndexDefinitionService = serviceBaseAddress + '/addIndexDefinition';
+export const deleteIndexDefinitionService = serviceBaseAddress + '/deleteIndexDefinition';
+export const editIndexDefinitionService = serviceBaseAddress + '/editIndexDefinition';
+export const queryIndexDefinitionsService = serviceBaseAddress + '/queryIndexDefinitions';

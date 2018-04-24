@@ -3,9 +3,11 @@ import { connect } from 'react-redux'
 import { getStore } from 'STORE/globalStore'
 
 export default (key, component) =>
-{	
+{
 	const mapStateToProps = (state) => 
 	{
+		console.log(key)
+		console.log(state)
 		return(
 		{
 		  	refreshList: state[key].refreshList

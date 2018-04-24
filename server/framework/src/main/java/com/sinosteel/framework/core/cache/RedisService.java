@@ -20,6 +20,7 @@ public class RedisService
 	
 	public List<String> keys(String pattern)
 	{
+		//pattern: admin_user_info
 		Jedis jedis = jedisPool.getResource();
 		
 		try

@@ -13,7 +13,7 @@ public class LegerIndex extends Index{
     @Column(name = "CURRENT_CREDIT_AMOUNT")
     private float currentCreditAmount;  //本期贷方发生额
 
-    @Column(name = "CURRENT_CDEBIT_BALANCE")
+    @Column(name = "CURRENT_DEBIT_BALANCE")
     private float currentDebitBalance;  //本期借方余额
 
     @Column(name = "CURRENT_DEBIT_AMOUNT")
@@ -22,7 +22,7 @@ public class LegerIndex extends Index{
     @Column(name = "LAST_CREDIT_BALANCE")
     private float lastCreditBalance; //上期贷方余额
 
-    @Column(name = "LAST_CDEBIT_BALANCE")
+    @Column(name = "LAST_DEBIT_BALANCE")
     private float lastDebitBalance;  //上期借方余额
 
     public float getCurrentCreditBalance() {

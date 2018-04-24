@@ -37,6 +37,7 @@ public class CacheUtil
     	
     	//functions
     	List<Function> functions = user.getFunctions();
+    	System.out.println(user.getUsername());
     	JSONArray functionsJsonArray = new JSONArray();
     	for(Function function : functions)
     	{
@@ -71,7 +72,7 @@ public class CacheUtil
 	
 	public static JSONObject getUserInfoJson(String username)
 	{
-		return (JSONObject) redisService.getJson(CacheRule.userInfo(username));
+		return (JSONObject) redisService.getJson(CacheRule.userInfo(username));  //admin_user_info
 	}
 	
 	public static void evictAllUserInfoCaches()

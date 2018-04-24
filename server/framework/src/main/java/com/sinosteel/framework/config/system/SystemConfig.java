@@ -6,6 +6,9 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
+/*
+获得系统的相关信息。如路径信息
+ */
 @Configuration
 @PropertySource("config/system.properties")
 @Component

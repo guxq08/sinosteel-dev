@@ -242,15 +242,19 @@ public class AuthorizationAspect
 		{
 			requestUserJson = CacheUtil.saveUserInfoCache(requestUser);
 		}
-		
+
+		//根据请求用户，获取请求用户所属的组织，然后获得该组织拥有哪些组织的修改权限
 		List<String> requestOrganizationIds = JsonUtil.toStringList(requestUserJson.getJSONArray("organizationIds"));
+
+		//这个最终是从EditAuthorizationMapper中通过查询数据库获得请求用户对应role_id拥有的修改权限对应的组织
 		List<String> editAuthorizedOrganizationIds = JsonUtil.toStringList(requestUserJson.getJSONArray("editAuthorizations"));
 	
 		U service = (U) SpringUtil.applicationContext.getBean(serviceClass);
 		String dataId = dataJson.getString("id");
 		T data = service.findEntityById(dataId);
 		String authorizedUserId = data.getCreatedUserId();
-		
+
+		//如果该数据项不属于任何人或者属于请求的用户，则该用户可以修改
 		if(StringUtil.isEmpty(authorizedUserId))
 		{
 			return true;
@@ -260,7 +264,8 @@ public class AuthorizationAspect
 		{
 			return true;
 		}
-		
+
+		//获取创建数据项的用户的组织id
 		List<String> authorizedOrganizationIds = userService.getOrganizationIdsByUserId(authorizedUserId);
 		
 		//控制edit权限
@@ -270,6 +275,7 @@ public class AuthorizationAspect
 				return true;
 				
 			case ORGANIZATION:
+				//只要请求的用户所属的组织与创建数据项的用户所属的组织是同一个组织，表示可以修改（存在用户属于多个组织，这时只需要组织有交集即可）
 				return (hasAuthorization(editAuthorizedOrganizationIds, authorizedOrganizationIds) || hasAuthorization(requestOrganizationIds, authorizedOrganizationIds));
 					
 			case USER:

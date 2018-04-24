@@ -1,6 +1,7 @@
 package com.sinosteel.metallurgical.index.web;
 
 import com.sinosteel.metallurgical.index.service.IndexDefinitionService;
+import org.apache.log4j.Logger;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,38 +17,41 @@ import com.sinosteel.framework.core.web.ResponseType;
 import com.sinosteel.framework.helpers.file.helper.FileHelper;
 import com.sinosteel.framework.system.basic.service.UserService;
 
+//继承自BaseController，BaseController提供统一的请求路径/services
 @RestController
 public class IndexDefinitionController extends BaseController
 {
+	//获取日志记录器Logger，名字为本类类名
+	private static Logger log = Logger.getLogger(IndexDefinitionController.class);
 	@Autowired
 	private IndexDefinitionService indexDefinitionService;
 	
-//	@RequestMapping(value = "/queryIndexDefinitions")
-//	@RequiresAuthorization(
-//			requestType = RequestType.QUERY,
-//			serviceClass = UserService.class,
-//			queryScope = AuthorizationScope.ALL,
-//			editScope = AuthorizationScope.ORGANIZATION,
-//			deleteScope = AuthorizationScope.ORGANIZATION)
-//	public Response queryIndexDefinitions(Request request)
-//	{
-//		Response response = new Response();
-//
-//		try
-//		{
-//			response.status = ResponseType.SUCCESS;
-//			response.data = indexDefinitionService.queryIndexDefinitions(request.getParams());
-//		}
-//		catch(Exception e)
-//		{
-//			e.printStackTrace();
-//
-//			response.status = ResponseType.FAILURE;
-//			response.message = e.getMessage();
-//		}
-//
-//		return response;
-//	}
+	@RequestMapping(value = "/queryIndexDefinitions")
+	@RequiresAuthorization(
+			requestType = RequestType.QUERY,
+			serviceClass = UserService.class,
+			queryScope = AuthorizationScope.ALL,
+			editScope = AuthorizationScope.ORGANIZATION,
+			deleteScope = AuthorizationScope.ORGANIZATION)
+	public Response queryIndexDefinitions(Request request)
+	{
+		Response response = new Response();
+
+		try
+		{
+			response.status = ResponseType.SUCCESS;
+			response.data = indexDefinitionService.queryIndexDefinitions(request.getParams());
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+
+			response.status = ResponseType.FAILURE;
+			response.message = e.getMessage();
+		}
+
+		return response;
+	}
 	
 	@RequestMapping(value = "/addIndexDefinition")
 	@RequiresPermissions(value = "addIndexDefinition")

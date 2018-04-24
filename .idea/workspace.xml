@@ -2,68 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="653ca2a0-abf1-4801-a8e3-da8b9ca87816" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardAddView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardEditView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardInspectView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardListComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardListView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardOperationComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardSearchComponent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/app.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/framework-example (1).iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/framework-example.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/Application.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/OrdinaryIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/IndexDefinitionRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/LegerIndexRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/OrdinaryIndexRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/redis.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/spring.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/system.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/structure.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/指标系统领域模型设计.puml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/schema.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework-example/target/app.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework-example/target/framework-example-1.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework-example/target/framework-example-1.0.0.jar.original" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework-example/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework-example/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework/app.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/public/favicon.ico" afterPath="$PROJECT_DIR$/client/framework-webclient/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/Application.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/Application.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/domain/Standard.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/domain/Standard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/domain/StandardResource.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/domain/StandardResource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/repository/StandardRepository.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/repository/StandardRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/repository/StandardResourceRepository.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/repository/StandardResourceRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/service/StandardResourceService.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/service/StandardResourceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/service/StandardService.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/service/StandardService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/web/StandardController.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/knowledge/web/StandardController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Milestone.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Milestone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Project.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Project.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Topic.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/domain/Topic.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/MilestoneRepository.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/MilestoneRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/ProjectRepository.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/ProjectRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/TopicRepository.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/repository/TopicRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/MilestoneService.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/MilestoneService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/ProjectService.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/ProjectService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/TopicService.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/service/TopicService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/MilestoneController.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/MilestoneController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/ProjectController.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/ProjectController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/TopicController.class" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/com/sinosteel/metallurgical/project/web/TopicController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionAddView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/framework-index.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/util/SwaggerConfig.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexListView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardEditView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardInspectView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardListComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardOperationComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardSearchComponent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardAddView.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/FrameworkApplication.class" afterPath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/FrameworkApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/config/database/DateSourceConfig.class" afterPath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/config/database/DateSourceConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/config/database/RepositoryConfig.class" afterPath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/config/database/RepositoryConfig.class" />
@@ -168,31 +116,54 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/utils/string/StringUtil.class" afterPath="$PROJECT_DIR$/server/framework/target/classes/com/sinosteel/framework/utils/string/StringUtil.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/framework-1.0.0.jar" afterPath="$PROJECT_DIR$/server/framework/target/framework-1.0.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/framework-1.0.0.jar.original" afterPath="$PROJECT_DIR$/server/framework/target/framework-1.0.0.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/package.json" afterPath="$PROJECT_DIR$/client/framework-webclient/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/index.html" afterPath="$PROJECT_DIR$/client/framework-webclient/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/layouts/CoreLayout.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/layouts/CoreLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/layouts/TopnavLayout.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/layouts/TopnavLayout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/Login/components/LoginView.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/Login/components/LoginView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README-Dev_Guide.md" afterPath="$PROJECT_DIR$/README-Dev_Guide.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/package-lock.json" afterPath="$PROJECT_DIR$/client/framework-webclient/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/ItemContainer.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/ItemContainer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/SearchContainer.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/SearchContainer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/framework-webclient/src/services/index.js" afterPath="$PROJECT_DIR$/client/framework-webclient/src/services/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/.gitignore" afterPath="$PROJECT_DIR$/server/fitech-index/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/app.log" afterPath="$PROJECT_DIR$/server/fitech-index/app.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/docker-compose.yml" afterPath="$PROJECT_DIR$/server/fitech-index/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/pom.xml" afterPath="$PROJECT_DIR$/server/fitech-index/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql" afterPath="$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/.classpath" afterPath="$PROJECT_DIR$/server/framework-example/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/app.log" afterPath="$PROJECT_DIR$/server/framework-example/app.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/web/StandardController.java" afterPath="$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/web/StandardController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/framework-example.iml" afterPath="$PROJECT_DIR$/server/framework-example/framework-example.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/src/main/resources/config/datasource.properties" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/config/datasource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json" afterPath="$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/application.properties" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/config/datasource.properties" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/config/datasource.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/db/mysql/data.sql" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/db/mysql/data.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/classes/structure.json" afterPath="$PROJECT_DIR$/server/framework-example/target/classes/structure.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/server/framework-example/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/server/framework-example/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/pom.xml" afterPath="$PROJECT_DIR$/server/framework/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/domain/BaseEntity.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/domain/BaseEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/.classpath" afterPath="$PROJECT_DIR$/server/framework/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/framework.iml" afterPath="$PROJECT_DIR$/server/framework/framework.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/druid/DruidConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/druid/DruidConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/http/CorsConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/http/CorsConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/listener/ListenerConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/listener/ListenerConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/shiro/ShiroConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/shiro/ShiroConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/system/SystemConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/system/SystemConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/web/WebConfig.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/web/WebConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/AuthorizationAspect.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/AuthorizationAspect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessAuthorizingRealm.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessAuthorizingRealm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/cache/RedisService.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/cache/RedisService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/utils/cache/CacheUtil.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/utils/cache/CacheUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/RequestArgumentResolver.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/RequestArgumentResolver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/domain/Function.java" afterPath="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/domain/Function.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/resources/config/datasource.properties" afterPath="$PROJECT_DIR$/server/framework/src/main/resources/config/datasource.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/src/main/resources/structure.json" afterPath="$PROJECT_DIR$/server/framework/src/main/resources/structure.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/config/datasource.properties" afterPath="$PROJECT_DIR$/server/framework/target/classes/config/datasource.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/classes/structure.json" afterPath="$PROJECT_DIR$/server/framework/target/classes/structure.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/server/framework/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/server/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/server/framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
@@ -200,12 +171,16 @@
     <ignored path="$PROJECT_DIR$/server/framework-example/target/" />
     <ignored path="$PROJECT_DIR$/server/framework/target/" />
     <ignored path="$PROJECT_DIR$/server/framework-index/target/" />
+    <ignored path="$PROJECT_DIR$/server/fitech-index/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sinosteel_dev$FrameworkApplication.coverage" NAME="FrameworkApplication Coverage Results" MODIFIED="1513734861062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -220,42 +195,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OperationComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/common/basic/components/OperationComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexDefinitionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandardAddView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardAddView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/pom.xml">
+      <file leaf-file-name="tabsmap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -264,126 +205,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datasource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql">
+      <file leaf-file-name="compile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/bin/compile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="164" column="27" lean-forward="false" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="27" />
-              <folding>
-                <marker date="1512542252973" expanded="true" signature="258:1978" ph="INSERT INTO `TBL_PROJECT`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/schema.sql">
+      <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/bin/dev-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8295">
-              <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Project/subviews/ProjectList/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1512542252973" expanded="true" signature="266:330" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="332:398" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="400:464" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="466:495" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="30061:30908" ph="CREATE TABLE... IF" />
-                <marker date="1512542252973" expanded="true" signature="30960:31017" ph="ALTER TABLE `act_evt_log`... " />
-                <marker date="1512542252973" expanded="true" signature="31075:31187" ph="ALTER TABLE `act_ge_bytearray`... " />
-                <marker date="1512542252973" expanded="true" signature="31244:31303" ph="ALTER TABLE `act_ge_property`... " />
-                <marker date="1512542252973" expanded="true" signature="31359:31665" ph="ALTER TABLE `act_hi_actinst`... " />
-                <marker date="1512542252973" expanded="true" signature="31724:31783" ph="ALTER TABLE `act_hi_attachment`... " />
-                <marker date="1512542252973" expanded="true" signature="31839:31895" ph="ALTER TABLE `act_hi_comment`... " />
-                <marker date="1512542252973" expanded="true" signature="31950:32275" ph="ALTER TABLE `act_hi_detail`... " />
-                <marker date="1512542252973" expanded="true" signature="32336:32568" ph="ALTER TABLE `act_hi_identitylink`... " />
-                <marker date="1512542252973" expanded="true" signature="32625:32846" ph="ALTER TABLE `act_hi_procinst`... " />
-                <marker date="1512542252973" expanded="true" signature="32903:32960" ph="ALTER TABLE `act_hi_taskinst`... " />
-                <marker date="1512542252973" expanded="true" signature="33016:33255" ph="ALTER TABLE `act_hi_varinst`... " />
-                <marker date="1512542252973" expanded="true" signature="33309:33363" ph="ALTER TABLE `act_id_group`... " />
-                <marker date="1512542252973" expanded="true" signature="33416:33469" ph="ALTER TABLE `act_id_info`... " />
-                <marker date="1512542252973" expanded="true" signature="33528:33651" ph="ALTER TABLE `act_id_membership`... " />
-                <marker date="1512542252973" expanded="true" signature="33704:33757" ph="ALTER TABLE `act_id_user`... " />
-                <marker date="1512542252973" expanded="true" signature="33816:33875" ph="ALTER TABLE `act_re_deployment`... " />
-                <marker date="1512542252973" expanded="true" signature="33929:34179" ph="ALTER TABLE `act_re_model`... " />
-                <marker date="1512542252973" expanded="true" signature="34235:34363" ph="ALTER TABLE `act_re_procdef`... " />
-                <marker date="1512542252973" expanded="true" signature="34424:34599" ph="ALTER TABLE `act_ru_event_subscr`... " />
-                <marker date="1512542252973" expanded="true" signature="34657:34968" ph="ALTER TABLE `act_ru_execution`... " />
-                <marker date="1512542252973" expanded="true" signature="35029:35349" ph="ALTER TABLE `act_ru_identitylink`... " />
-                <marker date="1512542252973" expanded="true" signature="35401:35513" ph="ALTER TABLE `act_ru_job`... " />
-                <marker date="1512542252973" expanded="true" signature="35566:35826" ph="ALTER TABLE `act_ru_task`... " />
-                <marker date="1512542252973" expanded="true" signature="35883:36148" ph="ALTER TABLE `act_ru_variable`... " />
-                <marker date="1512542252973" expanded="true" signature="36202:36315" ph="ALTER TABLE `tbl_milestone`... " />
-                <marker date="1512542252973" expanded="true" signature="36368:36420" ph="ALTER TABLE `tbl_project`... " />
-                <marker date="1512542252973" expanded="true" signature="36474:36527" ph="ALTER TABLE `tbl_standard`... " />
-                <marker date="1512542252973" expanded="true" signature="36590:36712" ph="ALTER TABLE `tbl_standard_resource`... " />
-                <marker date="1512542252973" expanded="true" signature="36766:36819" ph="ALTER TABLE `tbl_sys_file`... " />
-                <marker date="1512542252973" expanded="true" signature="36877:36990" ph="ALTER TABLE `tbl_sys_function`... " />
-                <marker date="1512542252973" expanded="true" signature="37044:37155" ph="ALTER TABLE `tbl_sys_menu`... " />
-                <marker date="1512542252973" expanded="true" signature="37211:37266" ph="ALTER TABLE `tbl_sys_module`... " />
-                <marker date="1512542252973" expanded="true" signature="37329:37391" ph="ALTER TABLE `tbl_sys_operation_log`... " />
-                <marker date="1512542252973" expanded="true" signature="37453:37514" ph="ALTER TABLE `tbl_sys_organization`... " />
-                <marker date="1512542252973" expanded="true" signature="37581:37739" ph="ALTER TABLE `tbl_sys_organization_user`... " />
-                <marker date="1512542252973" expanded="true" signature="37793:37846" ph="ALTER TABLE `tbl_sys_role`... " />
-                <marker date="1512542252973" expanded="true" signature="37909:38059" ph="ALTER TABLE `tbl_sys_role_function`... " />
-                <marker date="1512542252973" expanded="true" signature="38118:38260" ph="ALTER TABLE `tbl_sys_role_user`... " />
-                <marker date="1512542252973" expanded="true" signature="38314:38367" ph="ALTER TABLE `tbl_sys_user`... " />
-                <marker date="1512542252973" expanded="true" signature="38418:38527" ph="ALTER TABLE `tbl_topic`... " />
-                <marker date="1512542252973" expanded="true" signature="38576:38825" ph="ALTER TABLE `tbl_standard_resource`... " />
-                <marker date="1512542252973" expanded="true" signature="38870:39116" ph="ALTER TABLE `tbl_sys_role_user`... " />
-                <marker date="1512542252973" expanded="true" signature="39200:39281" ph="ALTER TABLE `act_evt_log`... " />
-                <marker date="1512542252973" expanded="true" signature="39347:39488" ph="ALTER TABLE `act_ge_bytearray`... " />
-                <marker date="1512542252973" expanded="true" signature="39533:39760" ph="ALTER TABLE `act_id_membership`... " />
-                <marker date="1512542252973" expanded="true" signature="39800:40193" ph="ALTER TABLE `act_re_model`... " />
-                <marker date="1512542252973" expanded="true" signature="40240:40380" ph="ALTER TABLE `act_ru_event_subscr`... " />
-                <marker date="1512542252973" expanded="true" signature="40424:40777" ph="ALTER TABLE `act_ru_execution`... " />
-                <marker date="1512542252973" expanded="true" signature="40962:41312" ph="ALTER TABLE `act_ru_identitylink`... " />
-                <marker date="1512542252973" expanded="true" signature="41350:41490" ph="ALTER TABLE `act_ru_job`... " />
-                <marker date="1512542252973" expanded="true" signature="41529:41877" ph="ALTER TABLE `act_ru_task`... " />
-                <marker date="1512542252973" expanded="true" signature="41920:42274" ph="ALTER TABLE `act_ru_variable`... " />
-                <marker date="1512542252973" expanded="true" signature="42279:42341" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="42343:42407" ph="/*!40101 SET... " />
-                <marker date="1512542252973" expanded="true" signature="42409:42471" ph="/*!40101 SET... " />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datasource.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/framework/src/main/resources/config/datasource.properties">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/services/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <marker date="1512548683197" expanded="true" signature="0:228" ph="..." />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/framework/pom.xml">
+      <file leaf-file-name="structure.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+            <state relative-caret-position="3600">
+              <caret line="240" column="37" lean-forward="false" selection-start-line="240" selection-start-column="37" selection-end-line="240" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/web/FunctionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/domain/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -394,42 +302,53 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tbl_</find>
-      <find>act_</find>
-      <find>diale</find>
-      <find>tbl_sys_query_authorization</find>
-      <find>TBL</find>
-      <find>utf</find>
-      <find>function</find>
-      <find>tbl_sys_role</find>
-      <find>tbl_sys_role_function</find>
-      <find>TBL_SYS_ROLE_FUNCTION</find>
-      <find>FK_tgfnmsm51p1heid7qd9wcghxj</find>
-      <find>tbl_sys_function</find>
       <find>SimpleJpaRepository</find>
       <find>Repository</find>
       <find>project_li</find>
       <find>structur</find>
-      <find>login</find>
       <find>systemConfig</find>
       <find>logo-fitech</find>
       <find>8001</find>
       <find>SELECT</find>
+      <find>DruidConfig</find>
+      <find>Environment</find>
+      <find>hadleValues</find>
+      <find>structure</find>
+      <find>structure.</find>
+      <find>searchcontai</find>
+      <find>yxv6xr</find>
+      <find>refreshlist</find>
+      <find>refreshList</find>
+      <find>DispatcherServlet</find>
+      <find>Controller</find>
+      <find>initSer</find>
+      <find>subject</find>
+      <find>login</find>
+      <find>doA</find>
+      <find>doGetAuth</find>
+      <find>serviceClass</find>
+      <find>RequiresAuthorization</find>
+      <find>@RequestMapping(</find>
       <find>8000</find>
+      <find>structure.json</find>
+      <find>FunctionService</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
       <dir>$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE.jar</dir>
       <dir>$PROJECT_DIR$/server</dir>
-      <dir>$PROJECT_DIR$/server/framework</dir>
+      <dir>$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar!/org/springframework</dir>
       <dir>$PROJECT_DIR$/client</dir>
+      <dir>$PROJECT_DIR$/server/framework</dir>
+      <dir>$PROJECT_DIR$/client/framework-webclient/src/routes/Knowledge/subviews/StandardList/components</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/client/framework-webclient</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -443,47 +362,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/framework-example/pom.xml" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/file/domain/File.java" />
-        <option value="$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/domain/StandardResource.java" />
-        <option value="$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/domain/Standard.java" />
-        <option value="$PROJECT_DIR$/server/framework-example/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/domain/Function.java" />
-        <option value="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/schema.sql" />
-        <option value="$PROJECT_DIR$/server/framework-index/pom.xml" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/domain/Standard.java" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/domain/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/domain/OrdinaryIndex.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/repository/StandardRepository.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/repository/StandardResourceRepository.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/repository/OrdinaryIndexRepository.java" />
+        <option value="$PROJECT_DIR$/server/framework/pom.xml" />
         <option value="$PROJECT_DIR$/server/framework-example/src/main/resources/config/datasource.properties" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/service/StandardService.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/web/StandardController.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/resources/db/mysql/data.sql" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/resources/structure.json" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/resources/config/datasource.properties" />
-        <option value="$PROJECT_DIR$/server/framework-index/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js" />
         <option value="$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar!/org/springframework/boot/context/embedded/tomcat/TomcatEmbeddedServletContainer.class" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/druid/DruidConfig.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/http/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/listener/ListenerConfig.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/system/SystemConfig.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/RequestArgumentResolver.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/web/WebConfig.java" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardAddView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardListView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardListView.js" />
+        <option value="$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/cache/RedisService.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/utils/cache/CacheUtil.java" />
+        <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java" />
         <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java" />
+        <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/util/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardAddView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardOperationComponent.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardEditView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/StandardSearchComponent.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionsSearchComponent.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexListView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionOperationComponent.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Knowledge/subviews/StandardList/components/StandardInspectView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionListView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/ItemContainer.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/common/basic/containers/SearchContainer.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionSearchComponent.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionEditView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionInspectView.js" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionListComponent.js" />
         <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java" />
         <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java" />
-        <option value="$PROJECT_DIR$/server/fitech-index/src/main/resources/structure.json" />
         <option value="$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/resources/structure.json" />
-        <option value="$PROJECT_DIR$/client/framework-webclient/src/components/Topnav/Topnav.js" />
-        <option value="$PROJECT_DIR$/client/framework-webclient/src/services/index.js" />
-        <option value="$PROJECT_DIR$/server/framework/pom.xml" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/resources/config/datasource.properties" />
-        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java" />
-        <option value="$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/web/StandardController.java" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionAddView.js" />
+        <option value="$PROJECT_DIR$/server/fitech-index/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/server/fitech-index/pom.xml" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessDefaultSubjectFactory.java" />
         <option value="$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql" />
+        <option value="$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/AuthorizationAspect.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessAuthorizingRealm.java" />
+        <option value="$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java" />
+        <option value="$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties" />
+        <option value="$PROJECT_DIR$/client/framework-webclient/src/services/index.js" />
       </list>
     </option>
   </component>
@@ -496,11 +425,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/client/framework-webclient/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="77" />
-    <option name="y" value="-4" />
-    <option name="width" value="2483" />
-    <option name="height" value="1444" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -517,316 +444,151 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="subviews" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
+              <item name="Project" type="462c0819:PsiDirectoryNode" />
               <item name="subviews" type="462c0819:PsiDirectoryNode" />
-              <item name="StandardList" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
-              <item name="subviews" type="462c0819:PsiDirectoryNode" />
-              <item name="StandardList" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="subviews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="subviews" type="462c0819:PsiDirectoryNode" />
-              <item name="StandardList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="subviews" type="462c0819:PsiDirectoryNode" />
-              <item name="StandardList" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="framework-webclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -834,8 +596,8 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -844,186 +606,58 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fitech-index" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1031,8 +665,8 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1041,59 +675,48 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1101,11 +724,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
               <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1114,37 +736,10 @@
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
               <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
               <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="framework-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
-              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1156,8 +751,20 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="framework-example" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="metallurgical" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1165,8 +772,8 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1175,8 +782,8 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sinosteel" type="462c0819:PsiDirectoryNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="framework-example" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -1185,64 +792,181 @@
               <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.9.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.9.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.9.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.9.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.9.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.9.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.9.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="authc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sinosteel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.9.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.9.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.3.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.3.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sinosteel-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.2.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.2.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/node-v8.4.0-linux-x64/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homework/distributed_system/Raft_Log_Consensus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="editorconfig.notification" value="spaces" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1263,7 +987,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.FrameworkApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sinosteel.Application" />
@@ -1376,45 +1100,82 @@
       <workItem from="1512358529555" duration="48776000" />
       <workItem from="1512543166973" duration="8385000" />
       <workItem from="1512975604825" duration="2104000" />
+      <workItem from="1513480636523" duration="19297000" />
+      <workItem from="1513831258507" duration="243000" />
+      <workItem from="1513831543079" duration="33801000" />
+      <workItem from="1514299616818" duration="11843000" />
+      <workItem from="1514368653933" duration="529000" />
+      <workItem from="1514511502749" duration="374000" />
+      <workItem from="1514529428566" duration="2309000" />
+      <workItem from="1516417359791" duration="106000" />
+      <workItem from="1516694432022" duration="2993000" />
+      <workItem from="1521270616873" duration="8671000" />
+      <workItem from="1521443800403" duration="12390000" />
+      <workItem from="1521532576579" duration="3905000" />
+      <workItem from="1521796023480" duration="16000" />
+      <workItem from="1521868758311" duration="4614000" />
+      <workItem from="1522139663815" duration="13708000" />
+      <workItem from="1522319794207" duration="264000" />
+      <workItem from="1522409950826" duration="9459000" />
+      <workItem from="1522653198802" duration="3476000" />
+      <workItem from="1522832251582" duration="520000" />
+      <workItem from="1522836543998" duration="1349000" />
+      <workItem from="1523256886456" duration="65000" />
+      <workItem from="1523528459943" duration="1658000" />
+      <workItem from="1523670404624" duration="4218000" />
+      <workItem from="1524024755420" duration="539000" />
+      <workItem from="1524380749199" duration="3171000" />
+      <workItem from="1524534795674" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74452000" />
+    <option name="totallyTimeSpent" value="213982000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3546326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.4978701" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4648094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.4978701" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2880724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844576" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1427,103 +1188,264 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/ResponseType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/domain/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/auth/web/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="68" lean-forward="false" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
+        <state relative-caret-position="690">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/service/FunctionService.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/RequiresAuthorization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="83" column="25" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/LegerIndexRepository.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/system/SystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/web/RequestArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="53" column="61" lean-forward="false" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/file/domain/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="90" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/LegerIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/OrdinaryIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/domain/IndexDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/IndexDefinitionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="81" />
+        <state relative-caret-position="180">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/service/IndexDefinitionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="92" column="72" lean-forward="false" selection-start-line="92" selection-start-column="66" selection-end-line="92" selection-end-column="72" />
+        <state relative-caret-position="75">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/resources/structure.json">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4410">
-          <caret line="245" column="41" lean-forward="false" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="41" />
+        <state relative-caret-position="465">
+          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.11.4.RELEASE/spring-data-commons-1.11.4.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/repository/IndexDefinitionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/config/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="107" column="39" lean-forward="false" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/web/StandardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="54" column="31" lean-forward="false" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/repository/BaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/config/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/config/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="53" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16946">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/IndexList/components/IndexDefinitionAddView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/structure.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="67" lean-forward="false" selection-start-line="45" selection-start-column="67" selection-end-line="45" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9795">
+          <caret line="653" column="50" lean-forward="false" selection-start-line="653" selection-start-column="29" selection-end-line="653" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4605">
+          <caret line="307" column="16" lean-forward="false" selection-start-line="307" selection-start-column="16" selection-end-line="307" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessAuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="52" column="50" lean-forward="false" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/AuthorizationAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="152" column="40" lean-forward="false" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/StatelessAccessControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1534,98 +1456,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="227" column="31" lean-forward="true" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/components/Topnav/Topnav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/structure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="253" column="39" lean-forward="false" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/domain/Standard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/repository/StandardRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/repository/BaseRepository.java">
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/repository/BaseRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/repository/FunctionRepository.java">
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/repository/MenuRepository.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/service/FunctionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/mapper/OrganizationUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/listener/ApplicationStartListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/base/domain/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="495">
+          <caret line="39" column="33" lean-forward="false" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/mapper/FunctionMapper.java">
+    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/system/basic/web/FunctionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/structure.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3600">
+          <caret line="240" column="37" lean-forward="false" selection-start-line="240" selection-start-column="37" selection-end-line="240" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/services/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Project/subviews/ProjectList/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1633,77 +1534,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/config/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="51" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/helpers/pagination/Pager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/service/StandardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/AuthorizationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="152" column="71" lean-forward="false" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/java/com/sinosteel/framework/core/auth/RequiresAuthorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/java/com/sinosteel/metallurgical/knowledge/web/StandardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework-example/src/main/resources/db/mysql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Knowledge/subviews/StandardList/components/StandardAddView.js">
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/tabsmap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1711,13 +1546,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Login/index.js">
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/bin/compile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1725,167 +1558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/services/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="112" column="46" lean-forward="false" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Knowledge/subviews/StandardList/components/StandardOperationComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="74" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/common/basic/components/OperationComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/java/com/sinosteel/metallurgical/index/web/IndexDefinitionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/framework-webclient/src/routes/Index/subviews/StandardList/components/StandardAddView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/pom.xml">
+    <entry file="file://$PROJECT_DIR$/client/framework-webclient/bin/dev-server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/config/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="164" column="27" lean-forward="false" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="27" />
-          <folding>
-            <marker date="1512542252973" expanded="true" signature="258:1978" ph="INSERT INTO `TBL_PROJECT`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/fitech-index/src/main/resources/db/mysql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8295">
-          <caret line="37" column="21" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <marker date="1512542252973" expanded="true" signature="266:330" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="332:398" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="400:464" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="466:495" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="30061:30908" ph="CREATE TABLE... IF" />
-            <marker date="1512542252973" expanded="true" signature="30960:31017" ph="ALTER TABLE `act_evt_log`... " />
-            <marker date="1512542252973" expanded="true" signature="31075:31187" ph="ALTER TABLE `act_ge_bytearray`... " />
-            <marker date="1512542252973" expanded="true" signature="31244:31303" ph="ALTER TABLE `act_ge_property`... " />
-            <marker date="1512542252973" expanded="true" signature="31359:31665" ph="ALTER TABLE `act_hi_actinst`... " />
-            <marker date="1512542252973" expanded="true" signature="31724:31783" ph="ALTER TABLE `act_hi_attachment`... " />
-            <marker date="1512542252973" expanded="true" signature="31839:31895" ph="ALTER TABLE `act_hi_comment`... " />
-            <marker date="1512542252973" expanded="true" signature="31950:32275" ph="ALTER TABLE `act_hi_detail`... " />
-            <marker date="1512542252973" expanded="true" signature="32336:32568" ph="ALTER TABLE `act_hi_identitylink`... " />
-            <marker date="1512542252973" expanded="true" signature="32625:32846" ph="ALTER TABLE `act_hi_procinst`... " />
-            <marker date="1512542252973" expanded="true" signature="32903:32960" ph="ALTER TABLE `act_hi_taskinst`... " />
-            <marker date="1512542252973" expanded="true" signature="33016:33255" ph="ALTER TABLE `act_hi_varinst`... " />
-            <marker date="1512542252973" expanded="true" signature="33309:33363" ph="ALTER TABLE `act_id_group`... " />
-            <marker date="1512542252973" expanded="true" signature="33416:33469" ph="ALTER TABLE `act_id_info`... " />
-            <marker date="1512542252973" expanded="true" signature="33528:33651" ph="ALTER TABLE `act_id_membership`... " />
-            <marker date="1512542252973" expanded="true" signature="33704:33757" ph="ALTER TABLE `act_id_user`... " />
-            <marker date="1512542252973" expanded="true" signature="33816:33875" ph="ALTER TABLE `act_re_deployment`... " />
-            <marker date="1512542252973" expanded="true" signature="33929:34179" ph="ALTER TABLE `act_re_model`... " />
-            <marker date="1512542252973" expanded="true" signature="34235:34363" ph="ALTER TABLE `act_re_procdef`... " />
-            <marker date="1512542252973" expanded="true" signature="34424:34599" ph="ALTER TABLE `act_ru_event_subscr`... " />
-            <marker date="1512542252973" expanded="true" signature="34657:34968" ph="ALTER TABLE `act_ru_execution`... " />
-            <marker date="1512542252973" expanded="true" signature="35029:35349" ph="ALTER TABLE `act_ru_identitylink`... " />
-            <marker date="1512542252973" expanded="true" signature="35401:35513" ph="ALTER TABLE `act_ru_job`... " />
-            <marker date="1512542252973" expanded="true" signature="35566:35826" ph="ALTER TABLE `act_ru_task`... " />
-            <marker date="1512542252973" expanded="true" signature="35883:36148" ph="ALTER TABLE `act_ru_variable`... " />
-            <marker date="1512542252973" expanded="true" signature="36202:36315" ph="ALTER TABLE `tbl_milestone`... " />
-            <marker date="1512542252973" expanded="true" signature="36368:36420" ph="ALTER TABLE `tbl_project`... " />
-            <marker date="1512542252973" expanded="true" signature="36474:36527" ph="ALTER TABLE `tbl_standard`... " />
-            <marker date="1512542252973" expanded="true" signature="36590:36712" ph="ALTER TABLE `tbl_standard_resource`... " />
-            <marker date="1512542252973" expanded="true" signature="36766:36819" ph="ALTER TABLE `tbl_sys_file`... " />
-            <marker date="1512542252973" expanded="true" signature="36877:36990" ph="ALTER TABLE `tbl_sys_function`... " />
-            <marker date="1512542252973" expanded="true" signature="37044:37155" ph="ALTER TABLE `tbl_sys_menu`... " />
-            <marker date="1512542252973" expanded="true" signature="37211:37266" ph="ALTER TABLE `tbl_sys_module`... " />
-            <marker date="1512542252973" expanded="true" signature="37329:37391" ph="ALTER TABLE `tbl_sys_operation_log`... " />
-            <marker date="1512542252973" expanded="true" signature="37453:37514" ph="ALTER TABLE `tbl_sys_organization`... " />
-            <marker date="1512542252973" expanded="true" signature="37581:37739" ph="ALTER TABLE `tbl_sys_organization_user`... " />
-            <marker date="1512542252973" expanded="true" signature="37793:37846" ph="ALTER TABLE `tbl_sys_role`... " />
-            <marker date="1512542252973" expanded="true" signature="37909:38059" ph="ALTER TABLE `tbl_sys_role_function`... " />
-            <marker date="1512542252973" expanded="true" signature="38118:38260" ph="ALTER TABLE `tbl_sys_role_user`... " />
-            <marker date="1512542252973" expanded="true" signature="38314:38367" ph="ALTER TABLE `tbl_sys_user`... " />
-            <marker date="1512542252973" expanded="true" signature="38418:38527" ph="ALTER TABLE `tbl_topic`... " />
-            <marker date="1512542252973" expanded="true" signature="38576:38825" ph="ALTER TABLE `tbl_standard_resource`... " />
-            <marker date="1512542252973" expanded="true" signature="38870:39116" ph="ALTER TABLE `tbl_sys_role_user`... " />
-            <marker date="1512542252973" expanded="true" signature="39200:39281" ph="ALTER TABLE `act_evt_log`... " />
-            <marker date="1512542252973" expanded="true" signature="39347:39488" ph="ALTER TABLE `act_ge_bytearray`... " />
-            <marker date="1512542252973" expanded="true" signature="39533:39760" ph="ALTER TABLE `act_id_membership`... " />
-            <marker date="1512542252973" expanded="true" signature="39800:40193" ph="ALTER TABLE `act_re_model`... " />
-            <marker date="1512542252973" expanded="true" signature="40240:40380" ph="ALTER TABLE `act_ru_event_subscr`... " />
-            <marker date="1512542252973" expanded="true" signature="40424:40777" ph="ALTER TABLE `act_ru_execution`... " />
-            <marker date="1512542252973" expanded="true" signature="40962:41312" ph="ALTER TABLE `act_ru_identitylink`... " />
-            <marker date="1512542252973" expanded="true" signature="41350:41490" ph="ALTER TABLE `act_ru_job`... " />
-            <marker date="1512542252973" expanded="true" signature="41529:41877" ph="ALTER TABLE `act_ru_task`... " />
-            <marker date="1512542252973" expanded="true" signature="41920:42274" ph="ALTER TABLE `act_ru_variable`... " />
-            <marker date="1512542252973" expanded="true" signature="42279:42341" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="42343:42407" ph="/*!40101 SET... " />
-            <marker date="1512542252973" expanded="true" signature="42409:42471" ph="/*!40101 SET... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/src/main/resources/config/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <marker date="1512548683197" expanded="true" signature="0:228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/framework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="98" column="21" lean-forward="true" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1967,6 +1643,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,6 +7,7 @@
 -- ('schema.history', 'create(5.17.0.2)', 1),
 -- ('schema.version', '5.17.0.2', 1);
 
+SET foreign_key_checks = 0;
 --
 -- 转存表中的数据 `tbl_project`
 --
@@ -382,3 +383,9 @@ INSERT INTO `TBL_TOPIC` (`id`, `altered_time`, `altered_user_id`, `code`, `creat
 ('7', NULL, NULL, '7', NULL, '0', '9', '项目9---课题7', NULL, NULL, NULL, '北京', '2017-06-20'),
 ('8', NULL, NULL, '8', NULL, '0', '6', '项目6---课题8', NULL, NULL, NULL, '北京', '2017-02-14'),
 ('9', NULL, NULL, '9', NULL, '0', '3', '项目3---课题9', NULL, NULL, NULL, '上海', '2017-02-28') ON DUPLICATE KEY UPDATE id = id;
+
+INSERT INTO `TBL_INDEX_DEFINITION` (`id`, `altered_time`, `altered_user_id`, `code`, `created_time`, `created_user_id`,`name`,`data_precision`,`data_type`,`in_use`,`index_frequency`,`index_meaning`,`ordinary_index_library`,`status`,`use_scale`) VALUES
+  ('001', NULL, NULL, '2300', NULL, '0', '上海中', '0.3', 'double', 1 , '0.09', '没意义', 0 , '1', '较小'),
+  ('002', NULL, NULL, '2301', NULL, '0', '银监1', '0.3', 'double', 1 , '0.2', '测试用', 1 , '1', '较小'),
+  ('003', NULL, NULL, '2302', NULL, '0', '银监2', '0.2', 'double', 0 , '0.09', '测试用', 0 , '0', '较大'),
+  ('004', NULL, NULL, '2303', NULL, '0', '银监3', '0.4', 'double', 1 , '0.2', '没意义', 0 , '0', '较小') ON DUPLICATE KEY UPDATE id = id;

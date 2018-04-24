@@ -224,9 +224,9 @@
     {
         "id": "5",
         "code": "INDEX",
-        "name": "指标",
+        "name": "指标管理",
         "moduleIcon": "global",
-        "modulePath": "/index/global",
+        "modulePath": "/index/index",
         "menus": [
             {
                 "id": "5-0",
@@ -238,8 +238,20 @@
                     {
                         "id": "5-0-F0",
                         "code": "5-0-F0",
-                        "name": "新建指标",
+                        "name": "新增指标定义",
                         "functionString": "addIndexDefinition"
+                    },
+                    {
+                        "id": "5-0-F1",
+                        "code": "5-0-F1",
+                        "name": "修改指标定义",
+                        "functionString": "editIndexDefinition"
+                    },
+                    {
+                        "id": "5-0-F2",
+                        "code": "5-0-F2",
+                        "name": "删除指标定义",
+                        "functionString": "deleteIndexDefinition"
                     }
                 ]
             }

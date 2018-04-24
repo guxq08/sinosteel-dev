@@ -34,9 +34,12 @@ export function injectItemReducers(key)
 		key: key,
 		reducer: (state = initialState, action) =>
 		{
+            console.log(action.payload);
+			console.log(action.type);
 			switch(action.type)
 			{
 				case SET_ITEMS:
+					console.log(action.payload)
 					return(
 					{
 						...state,

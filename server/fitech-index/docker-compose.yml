@@ -1,12 +1,14 @@
-version: '2'
+version: '3.2'
 
 services:
-  mariadb:
-    image: 'mariadb:latest'
+  mysql:
+    image: 'mysql:latest'
     ports:
-      - '3306:3306'
+      - '33006:3306'
+    volumes:
+      - '~/mnt/mysql/:/var/lib/mysql/'
     environment:
-      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_ROOT_PASSWORD=mysql
       - MYSQL_DATABASE=fitech
   redis:
     image: 'redis:latest'
