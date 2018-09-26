@@ -1,4 +1,4 @@
-const baseAddress = 'http://172.27.128.165:8000';
+const baseAddress = 'http://localhost:8000';
 const serviceBaseAddress = baseAddress+'/services';
 
 //auth

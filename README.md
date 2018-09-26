@@ -72,13 +72,15 @@ react + ant design + react-redux-router + redux-thunk + webpack + nginx
 最后，运行以下命令（在有IDE的情况下就直接import一个maven工程就好）      
                      
 ```             
-$ cd framework-example               
-$ mvn package              
-$ cd framework-example/target               
-$ java -jar framework-example-1.0.0.jar       
+$ cd fitech-index 
+$ docker-compose up -d              
+$ mvn package -DskipTests        
+$ mvn spring-boot:run
+or
+$ ./startup.sh      
 ```               
 
-服务端将在9016端口上运行             
+服务端将在8000端口上运行             
                    
 ## 客户端:
 “client” 文件夹是一个可在nodejs环境下运行的react项目 

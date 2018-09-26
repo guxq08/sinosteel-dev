@@ -13,7 +13,7 @@
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 	<name>fitech-index</name>
-	
+
 	<repositories>
 		<repository>
 			<snapshots>
@@ -58,7 +58,7 @@
 			<!--<version>2.6.1</version>-->
 		<!--</dependency>-->
     </dependencies>
-    
+
 	<build>
 		<plugins>
 			<plugin>
